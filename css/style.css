@@ -19,3 +19,12 @@ body {
     color: var(--cor-principal); /*Colocando cor das letras/palavras/frases*/
 }
 
+.principal {
+    background-image: url("assets/fotoPrincipal.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conteiner {
+    height: 100vh;
+}

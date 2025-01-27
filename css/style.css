@@ -1,0 +1,21 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Variaveis de Cores */
+:root {
+    --cor-principal: #ffffff;
+    --cor-segundaria: #c0c0c0;
+    --cor-terciaria: #167bf7;
+    --cor-de-fundo: #00030C;
+}
+
+* {
+    margin: 0; /*Colocando a margem, colocando ela no 0 a margem pega todas as extremidades da pagina*/
+    padding: 0; 
+}
+
+body {
+    background-color: var(--cor-de-fundo); /*Colocando cor de fundo*/
+    color: var(--cor-principal); /*Colocando cor das letras/palavras/frases*/
+}
+
